@@ -2,11 +2,11 @@ import cv2
 import numpy as np
 
 """Load and read image"""
-img = cv2.imread("images/ayuba_profile_pic.png", -1)
+img = cv2.imread("images/ayuba_profile_pic.png", 1)
 
 """Show image"""
 cv2.imshow("ayuba",  img)
-cv2.waitKey(10)
+cv2.waitKey(1000)
 
 """Showing video"""
 frameWidth = 1280
