@@ -5,8 +5,8 @@ import numpy as np
 img = cv2.imread("images/ayuba_profile_pic.png", -1)
 
 """Show image"""
-# cv2.imshow("ayuba",  img)
-# cv2.waitKey(10qq
+cv2.imshow("ayuba",  img)
+cv2.waitKey(10)
 
 """Showing video"""
 frameWidth = 1280
