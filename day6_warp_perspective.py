@@ -10,7 +10,7 @@ width, height = (250, 350)
 pt1 = np.float32([[199, 230], [408, 130], [335, 563], [553, 471]])
 pt2 = np.float32([[0, 0], [width, 0], [0, height], [width, height]])
 matrix = cv2.getPerspectiveTransform(pt1, pt2)
-img_warp =  cv2.warpPerspective(img,  matrix, (width, height))
+img_warp = cv2.warpPerspective(img,  matrix, (width, height))
 
 
 print(pt1)
